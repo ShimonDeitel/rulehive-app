@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Rulehive</title>
+<style>
+  :root {
+    --paper: #f5e9d3;
+    --panel: #efe0be;
+    --ink: #2b211a;
+    --ink-mute: #7a6a52;
+    --hairline: #d9c79e;
+    --cover: #7a2331;
+    --gold: #c9a227;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper:#1c1712; --panel:#2a2119; --ink:#efe0c8; --ink-mute:#9c8b6e; --hairline:#40331f; --cover:#b23a4d; --gold:#deb63d; }
+  }
+  :root[data-theme="dark"] { --paper:#1c1712; --panel:#2a2119; --ink:#efe0c8; --ink-mute:#9c8b6e; --hairline:#40331f; --cover:#b23a4d; --gold:#deb63d; }
+  :root[data-theme="light"] { --paper:#f5e9d3; --panel:#efe0be; --ink:#2b211a; --ink-mute:#7a6a52; --hairline:#d9c79e; --cover:#7a2331; --gold:#c9a227; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+  }
+  .sheet {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  .eyebrow {
+    font: 700 12px/1 ui-monospace, "SF Mono", Menlo, monospace;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+    text-wrap: balance;
+  }
+  .updated { color: var(--ink-mute); font-size: 14px; margin: 0 0 40px; }
+  h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-top: 1px solid var(--hairline);
+    padding-top: 20px;
+    margin: 40px 0 12px;
+  }
+  p, li { max-width: 62ch; }
+  a { color: var(--cover); }
+  ul { padding-left: 20px; }
+  .back {
+    display: inline-block;
+    margin-bottom: 28px;
+    font-size: 14px;
+    color: var(--ink-mute);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <a class="back" href="index.html">&larr; Rulehive</a>
+  <p class="eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated July 19, 2026</p>
+
+  <p>Rulehive is a board-game rulebook OCR and search app. This policy explains,
+  plainly, what the app does with your camera, your photos, and any data it touches.</p>
+
+  <h2>Rulebook page photos</h2>
+  <p>When you photograph a rulebook page, that photo is sent to a stateless AI
+  inference relay operated by the developer (a Cloudflare Worker in front of
+  Cloudflare Workers AI) solely to transcribe the visible text. That relay does not
+  require an account, does not attach the image to any identity, and does not retain
+  the photo after the transcription response is returned. Rulehive does not control
+  what any upstream AI infrastructure provider logs at the transport level for abuse
+  prevention, but no persistent copy of your rulebook photos is kept by Rulehive's
+  own backend.</p>
+
+  <h2>What gets stored, and where</h2>
+  <p>The transcribed text, the page label you're on, and a small on-device thumbnail
+  of each photo are stored locally on your device only, using Apple's on-device
+  SwiftData storage. This index is never uploaded anywhere. Deleting the app, or
+  using "Erase All Data" in Settings, permanently removes it.</p>
+
+  <h2>Search</h2>
+  <p>Searching your indexed pages happens entirely on your device — typed queries are
+  never sent anywhere, matched only against the text already stored locally.</p>
+
+  <h2>What Rulehive does not do</h2>
+  <ul>
+    <li>No account or sign-in of any kind.</li>
+    <li>No advertising and no ad SDKs.</li>
+    <li>No third-party analytics or behavioral tracking.</li>
+    <li>No sale or sharing of your photos or data with any third party for their own
+      purposes.</li>
+  </ul>
+
+  <h2>Subscriptions &amp; payment</h2>
+  <p>Rulehive Pro is an auto-renewable subscription billed through your Apple ID.
+  Payment, billing, and cancellation are handled entirely by Apple under its own App
+  Store terms and privacy practices — Rulehive never receives your payment details.</p>
+
+  <h2>Children</h2>
+  <p>Rulehive is not directed at children under 13 and does not knowingly collect
+  personal information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the "Last updated" date above will change and the new
+  policy will be posted at this same address.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:support@shimondeitel.com">support@shimondeitel.com</a></p>
+</div>
+</body>
+</html>

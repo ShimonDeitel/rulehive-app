@@ -1,0 +1,9 @@
+Every game night has the same argument: someone half-remembers a rule, and nobody wants to flip through a forty-page rulebook mid-turn to find the one paragraph that settles it.
+
+Rulehive fixes that with a one-time setup: photograph each page or two-page spread of a rulebook, and Rulehive transcribes the visible text using an AI vision model and indexes it against that page number. That's it — no manual typing, no photo-perfect scanner to fuss over.
+
+Mid-game, open the game and type your question in plain language, like "can you trade during setup" or "how do combat ties work." Rulehive searches every indexed page for the closest match, ranks the results, and shows you the extracted text plus exactly which page it came from — while a satisfying "thumb through pages" animation riffles across the rulebook and lands on the match. This is a searchable text index, not a rulebook viewer: you get the words and the page number, not a photo-perfect page render.
+
+Free indexes up to 3 games at once, with full, unlimited-page search inside each one. Rulehive Pro is an auto-renewing monthly subscription at $3.99 per month and removes the game-count cap entirely, so your whole shelf can be searchable.
+
+Rulebook page photos are sent to our stateless AI proxy only while a page is being transcribed, and are not retained afterward. No account is needed.

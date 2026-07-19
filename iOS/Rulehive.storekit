@@ -1,0 +1,53 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "RULEHIVE_STOREKIT_CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "23200001",
+      "localizations" : [],
+      "name" : "Rulehive Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "rulehive_pro_monthly_id",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited indexed games and search across all of them.",
+              "displayName" : "Rulehive Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.rulehive.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Rulehive Pro Monthly",
+          "subscriptionGroupID" : "23200001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
